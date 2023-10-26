@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "X": {
+      "item": "minecraft:golden_apple"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " E ",
+    "NXI",
+    " D "
+  ],
+  "result": {
+    "item": "practicemod:forbidden_fruit"
+  },
+  "show_notification": true
+}
