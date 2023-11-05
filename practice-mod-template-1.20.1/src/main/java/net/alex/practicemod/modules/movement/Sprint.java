@@ -3,6 +3,7 @@ import net.alex.practicemod.modules.Module;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
+import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
 
@@ -14,7 +15,7 @@ public class Sprint extends Module {
     }
     @Override
     public void tick(){
-        if (mc.player.input.pressingForward && !mc.player.isSneaking() && !mc.player.horizontalCollision){
+        if (mc.player.input.pressingForward && !mc.player.isSneaking() && !mc.player.horizontalCollision && enabled == true){
             mc.player.setSprinting(true);
         }
     }
