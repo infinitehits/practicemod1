@@ -18,7 +18,7 @@ public class GUI extends Screen {
     public void render(DrawContext drawContext, int mouseX, int mouseY, float delta) {
         super.render(drawContext, mouseX, mouseY, delta);
 
-        drawContext.drawTextWithShadow(this.textRenderer, Text.literal("Sodium Renderer"), 32, 32, 0xffffff);
+
     }
 }
 
